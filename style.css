@@ -1,0 +1,20 @@
+.header{
+background-color: blanchedalmond;
+padding: 50px;
+}
+.header p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+th{
+    padding: 10px;
+}
+.ho1:hover{
+    background-color: rgb(110, 107, 102);
+}
+.ho:hover{
+    background-color: rgba(243, 231, 231, 0.933);
+    padding: 2px;
+    
+
+}
