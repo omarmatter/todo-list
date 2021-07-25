@@ -28,15 +28,14 @@ btn.addEventListener("click", function () {
     li.innerHTML = txt + timeout.outerHTML;
     li.append(btndelete);
     li.append(complete);
-   
+
     list.insertBefore(li, list.childNodes[0]);
 
     setTimeout(() => {
       timerFaild(li);
-    }, tim*60000 );
-   
+    }, tim * 60000);
   }
-  
+
   btndelete.addEventListener("click", function () {
     console.log(this.parentNode.parentNode.removeChild(this.parentNode));
   });
@@ -46,11 +45,7 @@ btn.addEventListener("click", function () {
     this.classList.add("hidden");
   });
 
-  
-
   function timerFaild(li) {
-    console.log(li.classList.add('timeout'));
-
+    console.log(li.classList.add("timeout"));
   }
-  
 });
