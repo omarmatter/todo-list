@@ -48,3 +48,13 @@ ul li button {
     cursor: pointer;
     transition: background-color .25s;
 }
+.btn-primary{
+    margin-right: 50px;
+}
+.complete{
+    text-decoration: line-through rgb(240, 0, 0) ;
+    
+}
+.hidden{
+    visibility: hidden;
+}
