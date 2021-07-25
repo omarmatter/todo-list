@@ -52,9 +52,16 @@ ul li button {
     margin-right: 50px;
 }
 .complete{
-    text-decoration: line-through rgb(240, 0, 0) ;
+    text-decoration: line-through rgb(95, 84, 84) ;
     
 }
 .hidden{
     visibility: hidden;
+}
+.time{
+    margin-left: 10px;
+    color: #a7a4a4;
+}
+.timeout{
+    text-decoration: line-through red;
 }
