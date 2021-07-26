@@ -22,7 +22,7 @@ btn.addEventListener("click", function () {
     btndelete.classList.add("btn-danger");
     btndelete.innerHTML = '<i class="fa fa-trash-alt"></i>';
     complete.classList.add("btn");
-    complete.classList.add("btn-primary");
+    complete.classList.add("btn-success");
     complete.innerHTML = '<i class="fa fa-check"></i>';
     timeout.classList.add("time");
     timnum.innerHTML = tim;

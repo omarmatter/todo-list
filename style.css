@@ -44,7 +44,7 @@ ul li button {
   cursor: pointer;
   transition: background-color 0.25s;
 }
-.btn-primary {
+.btn-success {
   margin-right: 50px;
 }
 .complete {
