@@ -9,13 +9,14 @@ btn.addEventListener("click", function () {
   const complete = document.createElement("button");
   const timeout = document.createElement("span");
   const timnum = document.createElement("span");
-  const alert = document.createElement("span");
 
   var txt = text.value;
   var tim = time.value;
+   
   if (txt == "" || tim == "") {
     alert("Please Full input");
   } else {
+  
     const li = document.createElement("li");
     btndelete.classList.add("btn");
     btndelete.classList.add("btn-danger");
@@ -66,5 +67,6 @@ btn.addEventListener("click", function () {
     li.innerHTML = txt + timeout.outerHTML;
     li.append(btndelete);
     li.append(complete);
-  }
+  
+}
 });
